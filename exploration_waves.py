@@ -108,7 +108,7 @@ top_connections = []
 #initial points have rays. Find first intersection of all rays (find the shortest of the longer of the 2 distances)
 #add a node
 #for count in range(100):
-while (timeb-timea < 360) and len(top_connections) < 10:
+while (timeb-timea < 30) and len(top_connections) < 10:
 	min_distance = (height + width)*10
 	new_x = 0
 	new_y = 0
